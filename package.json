@@ -1,6 +1,6 @@
 {
     "name": "my-express-app",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "main": "server.js",
     "scripts": {
         "dev": "nodemon server.js"
