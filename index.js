@@ -49,7 +49,7 @@ const generateFiles = async () => {
     },
   ]);
 
-  const projectDir = path.resolve(process.cwd(), answers.projectName);
+  const projectDir = process.cwd();
 
   if (!fs.existsSync(projectDir)) {
     fs.mkdirSync(projectDir);
