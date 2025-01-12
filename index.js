@@ -26,6 +26,7 @@ const packageJsonContent = (projectName) => `
     "name": "${projectName}",
     "version": "1.0.0",
     "main": "server.js",
+    "type": "module",
     "scripts": {
         "dev": "nodemon server.js"
     },
