@@ -1,0 +1,30 @@
+{
+  "name": "start-express-now",
+  "version": "1.0.0",
+  "description": "Create an express app",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "create-express-app": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prashrijan/create-express-app.git"
+  },
+  "keywords": [
+    "CEA"
+  ],
+  "author": "Prashrijan Shrestha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prashrijan/create-express-app/issues"
+  },
+  "homepage": "https://github.com/prashrijan/create-express-app#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "inquirer": "^12.3.1"
+  }
+}
